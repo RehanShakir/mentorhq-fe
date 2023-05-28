@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
 .main {
   display: flex;
   flex-direction: column;
@@ -97,7 +98,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +126,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }

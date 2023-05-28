@@ -1,0 +1,44 @@
+.mainContainer {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  .mainHeading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    p {
+      margin-top: 2vh;
+      font-family: "Lato";
+      font-size: 20px;
+      font-size: 600;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    .marginTop {
+      margin-top: 5vh;
+    }
+    .divider {
+      border-color: #afafaf;
+    }
+    .input {
+      height: 6vh;
+      margin-top: 2vh;
+    }
+    .button {
+      margin-top: 2vh;
+      width: 100%;
+      height: 6vh;
+      font-family: "Lato";
+      font-weight: 600;
+      font-size: 18px;
+      letter-spacing: 2px;
+      .icon {
+        margin-left: 20px;
+      }
+    }
+  }
+}

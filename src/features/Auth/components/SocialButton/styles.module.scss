@@ -1,0 +1,33 @@
+.button {
+  border: 2px solid #4285f4;
+  border-radius: 5px;
+  width: 28vw;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 48px;
+  color: #4285f4;
+
+  .icon {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .button {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .button {
+    font-size: 18px;
+    width: 100%;
+  }
+}
